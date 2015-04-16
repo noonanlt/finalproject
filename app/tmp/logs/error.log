@@ -1,0 +1,2196 @@
+2015-03-31 17:46:50 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'womsAdmin\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /finalproject2261/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Model\Model.php(3613): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 C:\xampp\htdocs\finalproject2261\lib\Cake\Model\Model.php(3640): Model->setSource('user')
+#5 C:\xampp\htdocs\finalproject2261\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#6 C:\xampp\htdocs\finalproject2261\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp\htdocs\finalproject2261\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp\htdocs\finalproject2261\app\View\users\login.ctp(17): FormHelper->create('User')
+#9 C:\xampp\htdocs\finalproject2261\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\finalproject2261\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\finalproject2261\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-03-31 17:46:50 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:46:50 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:46:50 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:46:50 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:50:16 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:50:16 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:50:16 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:50:24 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:50:24 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:50:24 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:51:15 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:51:15 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:51:15 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:51:48 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:51:48 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:52:06 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:52:06 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:52:06 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:52:13 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:52:13 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:52:13 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:52:15 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:52:15 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:52:15 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:53:29 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:53:29 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:53:35 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:53:35 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:53:35 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:53:41 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 17:53:41 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/jquery.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'jquery.js')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 17:53:41 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 17:53:54 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:53:54 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:53:54 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:54:06 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:54:06 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:54:47 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:54:47 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:54:47 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:54:52 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:54:52 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:54:55 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:54:55 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:54:55 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:54:59 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:54:59 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:03 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:03 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:05 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:05 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:05 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:10 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:10 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:13 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:13 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:13 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:14 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:14 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:15 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:15 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:15 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:20 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:20 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:55:20 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:08 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:08 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:09 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:09 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:15 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:15 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:15 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:31 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:31 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:31 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:35 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:35 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:41 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:41 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:46 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:46 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:46 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:56 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:56 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:56:56 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:57:00 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:57:00 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:57:00 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:58:19 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 17:58:19 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/jquery.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'jquery.js')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 17:58:19 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 17:58:46 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 17:58:46 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/jquery.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'jquery.js')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 17:58:46 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 17:58:59 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:58:59 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:59:00 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:59:00 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:59:01 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 17:59:01 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:01:47 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:01:47 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:01:49 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:01:49 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:01:49 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:01:50 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:01:50 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:01:50 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:01:52 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/jquery.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'jquery.js')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 18:01:52 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 18:01:57 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/jquery.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'jquery.js')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 18:01:57 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 18:01:59 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/jquery.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'jquery.js')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 18:01:59 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 18:02:01 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:02:01 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:02:01 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:02:24 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:02:24 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:02:29 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:02:29 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:02:32 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:02:32 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:02:35 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:02:35 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:02:40 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 18:02:40 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/jquery.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'jquery.js')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 18:02:40 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 18:02:45 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 18:02:45 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/jquery.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'jquery.js')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 18:02:45 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 18:02:53 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 18:02:53 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/jquery.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'jquery.js')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 18:02:53 Error: [NotFoundException] Invalid ticket
+Request URL: /finalproject2261/tickets/view/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: TicketsController->view('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-31 18:03:07 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:03:07 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:03:07 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:05:04 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:05:04 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:05:13 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:05:13 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:05:14 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:05:15 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:05:15 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:05:15 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:05:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /finalproject2261/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-31 18:05:22 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:05:22 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 18:05:22 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:23:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /finalproject2261/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-31 20:23:35 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:23:35 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:23:35 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:23:37 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:23:37 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:36:09 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:36:09 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:36:10 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:36:10 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:36:13 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:36:13 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:36:14 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:36:14 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:36:22 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:36:22 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 20:36:22 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:12 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:12 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:12 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:14 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:14 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:14 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:23 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:23 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:24 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:25 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:25 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:27 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:27 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:28 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:31 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:31 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:31 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:34 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:34 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:34 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /finalproject2261/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-01 14:25:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /finalproject2261/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-01 14:25:38 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:38 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:38 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:41 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:41 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:41 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 14:25:47 Error: [NotFoundException] Invalid user
+Request URL: /finalproject2261/users/elevate/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: UsersController->elevate('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-01 14:25:47 Error: [NotFoundException] Invalid user
+Request URL: /finalproject2261/users/elevate/js/jquery.js
+Stack Trace:
+#0 [internal function]: UsersController->elevate('js', 'jquery.js')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-01 14:25:47 Error: [NotFoundException] Invalid user
+Request URL: /finalproject2261/users/elevate/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: UsersController->elevate('js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 18:06:21 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-16 18:06:21 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-16 18:06:22 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-16 18:06:27 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-16 18:06:27 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-16 18:06:27 Error: [MissingActionException] Action TicketsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'js',
+)
+Request URL: /finalproject2261/tickets/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\finalproject2261\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\finalproject2261\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

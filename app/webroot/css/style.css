@@ -1,0 +1,98 @@
+/*   Project Title: Work Order Management System
+
+     Author: Logan Noonan, Michael Fesser, Andrew Reid, Roger Myers
+
+     Date:  02/17/2015
+
+     Purpose: Custom styling of cakePhp.
+
+     Last Revision: 02/17/2015
+
+     Dependencies: None
+
+ */
+#footer-center {
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+}
+
+#ticket-details {
+    padding-top: 24px;
+}
+
+/*div that contains the logged in user's name*/
+#userNameWell {
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(+75%);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+br {
+    line-height: 200%;
+}
+/*adjusting margin on check boxes*/
+#mark-priority, #user-active {
+    margin-left: 16px;
+}
+
+.heading, th {
+    font-family: Raleway;
+    font-weight: bold;
+}
+/*header for displaying comments*/
+.comment-info-line {
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+.resolve {
+    font-family: Raleway;
+    text-decoration: none;
+    color: #888;
+}
+
+.resolve:hover {
+    color: #009e2a;
+}
+
+.green-text {
+    color: #009e2a;
+    font-size: 120%;
+}
+/*colored text*/
+.red-text {
+    color: red;
+    font-size: 120%;
+}
+
+.blue-text {
+    color: #001253;
+    font-size: 120%;
+}
+/*glyphicon styling*/
+.glyphicon-flag {
+    color: red;
+}
+
+.glyphicon-ok {
+    color: #009e2a;
+}
+
+.glyphicon-question-sign {
+    color: #888;
+}
+.glyphicon {
+    margin-right: 5px;
+}
+
+.hidden {
+    display: none;
+}
+.small-nav {
+    height: 30px;
+}
